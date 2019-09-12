@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/buttonCalci"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#B22222"
+            android:text="Calci"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonCustomToast"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#B22222"
+            android:text="Custom Toast"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/buttonFoodOrder"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#B22222"
+            android:text="Food Order"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonInfo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#B22222"
+            android:text="Customer Info"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewCloseApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Do you want to close this app ?"
+        android:textColor="#B22222"
+        android:textStyle="bold" />
+
+</LinearLayout>
